@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Container } from "../Styledcomponents/Landingpagestyles.ts";
 
 function Landing() {
   return (
-    <div>
-      <h1>Landng page</h1>
-    </div>
-  )
+    <>
+      <Container>
+        
+      </Container>
+    </>
+  );
 }
 
 export default Landing;
