@@ -1,12 +1,20 @@
 import React from "react";
-import { Container } from "../Styledcomponents/Landingpagestyles.ts";
+import {
+  Container,
+  Footer,
+  FooterDiv,
+  FooterPara,
+} from "../Styledcomponents/Landingpagestyles.ts";
 
 function Landing() {
   return (
     <>
-      <Container>
-        
-      </Container>
+      <Container></Container>
+      <Footer>
+        <FooterDiv>
+          <FooterPara className=".pt-9">Locations</FooterPara>
+        </FooterDiv>
+      </Footer>
     </>
   );
 }
