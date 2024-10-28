@@ -88,17 +88,17 @@
   display: none;
 }
 .slick-loading .slick-list {
-  background: #fff url(../images/ajax-loader.0b80f665.gif) 50% no-repeat;
+  background: #fff url(../../public/images/ajax-loader.0b80f665.gif) 50% no-repeat;
 }
 @font-face {
   font-family: slick;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/slick.25572f22.eot);
-  src: url(../fonts/slick.25572f22.eot#iefix) format("embedded-opentype"),
-    url(../fonts/slick.653a4cbb.woff) format("woff"),
-    url(../fonts/slick.6aa1ee46.ttf) format("truetype"),
-    url(../images/slick.f895cfdf.svg#slick) format("svg");
+  src: url(../../public/fonts/slick.25572f22.eot);
+  src: url(../../public/fonts/slick.25572f22.eot#iefix) format("embedded-opentype"),
+    url(../../public/fonts/slick.653a4cbb.woff) format("woff"),
+    url(../../public/fonts/slick.6aa1ee46.ttf) format("truetype"),
+    url(../../public/images/slick.f895cfdf.svg#slick) format("svg");
 }
 .slick-next,
 .slick-prev {
