@@ -1,16 +1,21 @@
 import React from "react";
 
 import webcam from '../utilities/media/Catering.webm';
-import vedio1 from '../utilities/media/Video1.webm';
-import vedio2 from '../utilities/media/Video2.webm';
-import vedio3 from '../utilities/media/Video3.webm';
-import vedio4 from '../utilities/media/Video4.webm';
-import vedio5 from '../utilities/media/Video5.webm';
-import vedio6 from '../utilities/media/Video6.webm';
-import vedio7 from '../utilities/media/Video7.webm';
-import vedio8 from '../utilities/media/Video8.webm';
+import BisiBisiHomeVideo from '../utilities/media/BisiBisiHomeVideo.webm';
+import FranchiseHorizantal from '../utilities/media/FranchiseHorizantal.webm';
+import vedioOne from '../utilities/media/Video1.webm';
+import vedioTwo from '../utilities/media/Video2.webm';
+import vedioThree from '../utilities/media/Video3.webm';
+import vedioFour from '../utilities/media/Video4.webm';
+import vedioFive from '../utilities/media/Video5.webm';
+import vedioSix from '../utilities/media/Video6.webm';
+import vedioSeven from '../utilities/media/Video7.webm';
+import vedioEight from '../utilities/media/Video8.webm';
+import vedioNine from '../utilities/media/Video9.webm';
 import Footerline from '../utilities/images/Footerline.png';
 import FooterlineDesign from '../utilities/images/Footerlinedesign.svg';
+import instalogodes from '../utilities/images/instalogodes.svg';
+import garnish1 from '../utilities/images/garnish1.svg';
 
 function Landing() {
   return (
@@ -39,8 +44,8 @@ function Landing() {
                 className="flex"
                 href="#"
               >
-                <img src="../../public/images/instalogodes.svg" alt="Instagram Logo" />
-                �&nbsp;@bisibisi_eats
+                <img src={instalogodes} alt="Instagram Logo" />
+                 &nbsp;@bisibisi_eats
               </a>
             </h2>
           </div>
@@ -145,9 +150,9 @@ function Landing() {
                 playsinline=""
                 className="newhomevideocontrol1"
                 preload="none"
-                poster="../../public/images/webp/homevidoneposter.webp"
+                // poster={homevidoneposter}
               >
-                <source src="../utilities/media/BisiBisiHomeVideo.webm" type="video/mp4" />
+                <source src={BisiBisiHomeVideo} type="video/mp4" />
               </video>
             </div>
           </div>
@@ -328,7 +333,7 @@ function Landing() {
                 loop=""
                 style={{ objectFit: "cover" }}
               >
-                <source src="../utilities/media/FranchiseHorizantal.webm" type="video/mp4" />
+                <source src={FranchiseHorizantal} type="video/mp4" />
               </video>
               <svg id="svg">
                 <defs>
@@ -418,13 +423,13 @@ function Landing() {
               What People are Saying
             </h4>
             <p className="font-trap text-center w-[18rem] md:w-[26rem] font-[400] text-justify text-[#2C6F56] text-base md:text-lg leading-[26px] pt-3 md:pt-6">
-              Read the candid confessions of many a�&nbsp;happy�&nbsp;customer
+              Read the candid confessions of many a &nbsp;happy &nbsp;customer
             </p>
           </div>
           <div className="absolute right-[200px] rotate-[30deg]">
             <img
               className="floating relative bottom-[178px]"
-              src="../../public/images/garnish1.svg"
+              src={garnish1}
               alt="Leaf2"
             />
           </div>
@@ -461,7 +466,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source src={vedio1} type="video/mp4" />
+                          <source src={vedioOne} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -488,7 +493,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source src={vedio2} type="video/mp4" />
+                          <source src={vedioTwo} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -515,7 +520,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio3} type="video/mp4" />
+                          <source  src={vedioThree} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -542,7 +547,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio4} type="video/mp4" />
+                          <source  src={vedioFour} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -569,7 +574,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio5} type="video/mp4" />
+                          <source  src={vedioFive} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -596,7 +601,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio6} type="video/mp4" />
+                          <source  src={vedioSix} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -623,7 +628,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio7} type="video/mp4" />
+                          <source  src={vedioSeven} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -650,7 +655,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source  src={vedio8} type="video/mp4" />
+                          <source  src={vedioEight} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -677,7 +682,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          <source src="../utilities/media/Video9.webm" type="video/mp4" />
+                          <source src={vedioNine} type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -763,7 +768,7 @@ function Landing() {
                         </clipPath>
                       </defs>
                     </svg>
-                    �&nbsp;
+                     &nbsp;
                     <span className="font-trap font-[400] pl-1 text-[32px] leading-10">
                       @bisibisieats
                     </span>
@@ -824,7 +829,7 @@ function Landing() {
                     >
                       <path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.96-1.38-.92-2.61.05-1.22.69-1.8.95-2.04.24-.26.51-.29.68-.26h.47c.15 0 .36-.06.55.45l.69 1.87c.06.13.1.28.01.44l-.27.41-.39.42c-.12.12-.26.25-.12.5.12.26.62 1.09 1.32 1.78.91.88 1.71 1.17 1.95 1.3.24.14.39.12.54-.04l.81-.94c.19-.25.35-.19.58-.11l1.67.88M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.97 0-3.8-.57-5.35-1.55L2 22l1.55-4.65A9.969 9.969 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.72.54 3.31 1.46 4.61L4.5 19.5l2.89-.96A7.95 7.95 0 0 0 12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8z"></path>
                     </svg>
-                    �&nbsp; +91 90329 84111
+                     &nbsp; +91 90329 84111
                   </div>
                 </a>
                 <button
@@ -841,7 +846,7 @@ function Landing() {
                   >
                     <path d="M21 3 3 10.53v.98l6.84 2.65L12.48 21h.98z"></path>
                   </svg>
-                  �&nbsp; Get Directions
+                   &nbsp; Get Directions
                 </button>
               </div>
               <div className="pb-7 md:pb-0">
@@ -889,7 +894,7 @@ function Landing() {
                     >
                       <path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.96-1.38-.92-2.61.05-1.22.69-1.8.95-2.04.24-.26.51-.29.68-.26h.47c.15 0 .36-.06.55.45l.69 1.87c.06.13.1.28.01.44l-.27.41-.39.42c-.12.12-.26.25-.12.5.12.26.62 1.09 1.32 1.78.91.88 1.71 1.17 1.95 1.3.24.14.39.12.54-.04l.81-.94c.19-.25.35-.19.58-.11l1.67.88M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.97 0-3.8-.57-5.35-1.55L2 22l1.55-4.65A9.969 9.969 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.72.54 3.31 1.46 4.61L4.5 19.5l2.89-.96A7.95 7.95 0 0 0 12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8z"></path>
                     </svg>
-                    �&nbsp; +91 90329 84111
+                     &nbsp; +91 90329 84111
                   </div>
                 </a>
                 <button
@@ -906,7 +911,7 @@ function Landing() {
                   >
                     <path d="M21 3 3 10.53v.98l6.84 2.65L12.48 21h.98z"></path>
                   </svg>
-                  �&nbsp; Get Directions
+                   &nbsp; Get Directions
                 </button>
               </div>
               <div className="pb-7 md:pb-0">
@@ -952,7 +957,7 @@ function Landing() {
                     >
                       <path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.96-1.38-.92-2.61.05-1.22.69-1.8.95-2.04.24-.26.51-.29.68-.26h.47c.15 0 .36-.06.55.45l.69 1.87c.06.13.1.28.01.44l-.27.41-.39.42c-.12.12-.26.25-.12.5.12.26.62 1.09 1.32 1.78.91.88 1.71 1.17 1.95 1.3.24.14.39.12.54-.04l.81-.94c.19-.25.35-.19.58-.11l1.67.88M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.97 0-3.8-.57-5.35-1.55L2 22l1.55-4.65A9.969 9.969 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.72.54 3.31 1.46 4.61L4.5 19.5l2.89-.96A7.95 7.95 0 0 0 12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8z"></path>
                     </svg>
-                    �&nbsp; +91 90329 84111
+                     &nbsp; +91 90329 84111
                   </div>
                 </a>
                 <button
@@ -969,7 +974,7 @@ function Landing() {
                   >
                     <path d="M21 3 3 10.53v.98l6.84 2.65L12.48 21h.98z"></path>
                   </svg>
-                  �&nbsp; Get Directions
+                   &nbsp; Get Directions
                 </button>
               </div>
             </div>
