@@ -27,7 +27,7 @@ function Landing() {
                 className="flex"
                 href="#"
               >
-                <img src="images/instalogodes.svg" alt="Instagram Logo" />
+                <img src="../../public/images/instalogodes.svg" alt="Instagram Logo" />
                 �&nbsp;@bisibisi_eats
               </a>
             </h2>
@@ -133,9 +133,9 @@ function Landing() {
                 playsinline=""
                 className="newhomevideocontrol1"
                 preload="none"
-                poster="/images/webp/homevidoneposter.webp"
+                poster="../../public/images/webp/homevidoneposter.webp"
               >
-                <source src="media/BisiBisiHomeVideo.webm" type="video/mp4" />
+                <source src="../../public/mediaBisiBisiHomeVideo.webm" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -316,7 +316,7 @@ function Landing() {
                 loop=""
                 style={{ objectFit: "cover" }}
               >
-                <source src="media/FranchiseHorizantal.webm" type="video/mp4" />
+                <source src="../../public/mediaFranchiseHorizantal.webm" type="video/mp4" />
               </video>
               <svg id="svg">
                 <defs>
@@ -375,7 +375,7 @@ function Landing() {
                   autoplay=""
                   loop=""
                 >
-                  {/* <source src="media/Catering.webm" type="video/mp4" /> */}
+                  <source src="../../public/mediaCatering.webm" type="video/mp4" />
                 </video>
               </div>
               <div className="md:w-1/2 flex flex-col pt-[20px] md:pt-[0px] justify-center items-center relative md:right-4 none">
@@ -449,7 +449,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video1.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo1.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -476,7 +476,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video2.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo2.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -503,7 +503,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video3.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo3.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -530,7 +530,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video4.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo4.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -557,7 +557,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video5.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo5.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -584,7 +584,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video6.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo6.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -611,7 +611,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video7.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo7.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -638,7 +638,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video8.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo8.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
@@ -665,7 +665,7 @@ function Landing() {
                           className="newhomevideocontrol"
                           preload="none"
                         >
-                          {/* <source src="media/Video9.webm" type="video/mp4" /> */}
+                          <source src="../../public/mediaVideo9.webm" type="video/mp4" />
                         </video>
                       </div>
                     </div>
